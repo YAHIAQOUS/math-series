@@ -46,17 +46,17 @@ def test_version():
 #     actual=fibonacci(7)
 #     assert expected == actual
 
-# def test_fibonacci_list():
-#     expected=[0,1,1,2,3,5,8,13,21]
-#     actual=fibonacci_list([0,1,2,3,4,5,6,7,8])
-#     assert expected == actual
-
-# def test_lucas_list():
-#     expected=[2,1,3,4,7,11,18,29,47]
-#     actual=lucas_list([0,1,2,3,4,5,6,7,8])
-#     assert expected == actual
-
-def test_sum_series_list():
-    expected=[2,1,3,4,7,11,18,29,47]
-    actual=sum_series_list([0,1,2,3,4,5,6,7,8],2,1)
+def test_fibonacci_list():
+    expected=[0,1,1,2,3,5,8,13,21]
+    actual=fibonacci_list([0,1,2,3,4,5,6,7,8])
     assert expected == actual
+
+def test_lucas_list():
+    expected=[2,1,3,4,7,11,18,29,47]
+    actual=lucas_list([0,1,2,3,4,5,6,7,8])
+    assert expected == actual
+
+# def test_sum_series_list():
+#     expected=[2,1,3,4,7,11,18,29,47]
+#     actual=sum_series_list([0,1,2,3,4,5,6,7,8],2,1)
+#     assert expected == actual
